@@ -2299,7 +2299,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="48.26" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="PRB" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PRB"/>
 <wire x1="10.2738625" y1="12.6966" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
