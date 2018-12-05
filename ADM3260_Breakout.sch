@@ -1908,9 +1908,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J2" library="SparkFun-Connectors" deviceset="BNC" device="PTH"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
-<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
 </parts>
 <sheets>
 <sheet>
@@ -2034,14 +2034,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY2" gate="GND" x="-38.1" y="50.8" smashed="yes">
 <attribute name="VALUE" x="-40.005" y="47.625" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="-99.06" y="76.2" smashed="yes">
-<attribute name="VALUE" x="-100.965" y="73.025" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY3" gate="GND" x="-58.42" y="76.2" smashed="yes">
 <attribute name="VALUE" x="-60.325" y="73.025" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="-33.02" y="121.92" smashed="yes">
 <attribute name="VALUE" x="-34.925" y="118.745" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="-99.06" y="81.28" smashed="yes">
+<attribute name="VALUE" x="-100.965" y="78.105" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2077,11 +2077,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-48.26" y="12.7" size="2.54" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="-91.44" y1="86.36" x2="-96.52" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="86.36" x2="-96.52" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="83.82" x2="-99.06" y2="83.82" width="0.1524" layer="91"/>
-<label x="-99.06" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="-91.44" y1="83.82" x2="-91.44" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="73.66" x2="-99.06" y2="73.66" width="0.1524" layer="91"/>
+<label x="-99.06" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL2" class="0">
@@ -2337,13 +2336,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="-91.44" y1="83.82" x2="-93.98" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="83.82" x2="-93.98" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="78.74" x2="-99.06" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="GNDP@1"/>
 <wire x1="-30.037128125" y1="124.452775" x2="-33.02" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
@@ -2370,6 +2362,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="-48.26" y="78.74"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="-58.42" y1="78.74" x2="-48.26" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="-91.44" y1="86.36" x2="-96.52" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="86.36" x2="-96.52" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="83.82" x2="-99.06" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
