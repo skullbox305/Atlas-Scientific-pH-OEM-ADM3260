@@ -1870,6 +1870,74 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
+This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FR-A4L">
+<description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
+&lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME-A4L&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<rectangle x1="178.7652" y1="0" x2="179.3748" y2="20.32" layer="94"/>
+<rectangle x1="225.7552" y1="-26.67" x2="226.3648" y2="67.31" layer="94" rot="R90"/>
+<wire x1="225.29" y1="-0.1" x2="225.29" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="273.05" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="179.07" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="10.16" x2="225.29" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="10.16" x2="273.05" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="15.24" x2="273.05" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="225.29" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="19.05" x2="179.07" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="179.07" y1="20.32" x2="180.34" y2="20.32" width="0.6096" layer="94"/>
+<text x="194.31" y="11.43" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="181.61" y="6.35" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="195.58" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="181.61" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="181.61" y="16.51" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="226.16" y="1.27" size="2.54" layer="94" font="vector">Rev:</text>
+<text x="244.04" y="6.35" size="2.54" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="234.92" y="1.17" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
+<frame x1="-3.81" y1="-3.81" x2="276.86" y2="182.88" columns="8" rows="5" layer="94"/>
+<wire x1="190.492" y1="10.16" x2="190.492" y2="15.24" width="0.1016" layer="94"/>
+<text x="181.61" y="12.954" size="1.4224" layer="94">Size</text>
+<text x="181.356" y="10.668" size="1.778" layer="94">A4</text>
+<text x="226.822" y="6.35" size="2.54" layer="94">Drawn By:</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME-A4L" prefix="FRAME">
+<description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
+&lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FR-A4L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="" constant="no"/>
+<attribute name="REV" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1903,7 +1971,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R5" library="SparkFun-Resistors" deviceset="16.2KOHM" device="-0603-1/10W-1%" value="16.2k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="GND-ISO4" library="SparkFun-PowerSymbols" deviceset="GND-ISO" device=""/>
-<part name="U2" library="SENSOR" deviceset="PHSENSOR" device="" value="OEM EZO pH"/>
+<part name="U2" library="SENSOR" deviceset="PHSENSOR" device="" value="Atlas Scientific OEM pH or ORP"/>
 <part name="GND-ISO5" library="SparkFun-PowerSymbols" deviceset="GND-ISO" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="BNC" device="PTH"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
@@ -1911,6 +1979,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="GNDP"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="">
+<attribute name="CNAME" value="ADM3260 with Atlas Scientific OEM pH or ORP"/>
+<attribute name="CREVISION" value="1.0.0"/>
+<attribute name="DESIGNER" value="Igor Knippenberg"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2041,7 +2114,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="-34.925" y="118.745" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="-99.06" y="81.28" smashed="yes">
-<attribute name="VALUE" x="-100.965" y="78.105" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-104.521" y="77.089" size="2.54" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="-142.24" y="-22.86" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="39.37" y="-16.51" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="53.34" y="-21.59" size="2.54" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="101.8" y="-16.51" size="2.54" layer="94" font="vector"/>
+<attribute name="CNAME" x="39.37" y="-6.35" size="2.54" layer="94" font="vector"/>
+<attribute name="CREVISION" x="92.68" y="-21.69" size="2.54" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -2062,7 +2142,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="-91.44" y1="88.9" x2="-99.06" y2="88.9" width="0.1524" layer="91"/>
-<label x="-99.06" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-99.06" y="88.9" size="2.54" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -2080,7 +2160,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="-91.44" y1="83.82" x2="-91.44" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="73.66" x2="-99.06" y2="73.66" width="0.1524" layer="91"/>
-<label x="-99.06" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-99.06" y="73.66" size="2.54" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL2" class="0">
@@ -2235,7 +2315,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="35.56" y="132.08"/>
 <wire x1="35.56" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="132.08" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
-<label x="35.56" y="134.62" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="35.56" y="134.62" size="2.54" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDISO"/>
@@ -2248,7 +2328,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="38.1" y1="101.6" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 <junction x="38.1" y="101.6"/>
-<label x="48.26" y="101.6" size="1.778" layer="95" xref="yes"/>
+<label x="48.26" y="101.6" size="2.54" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VISO"/>
@@ -2262,7 +2342,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="38.1" y1="63.5" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
 <junction x="38.1" y="63.5"/>
-<label x="45.72" y="63.5" size="1.778" layer="95" xref="yes"/>
+<label x="45.72" y="63.5" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -2279,7 +2359,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="40.64" y1="116.84" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="116.84" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
 <junction x="40.64" y="116.84"/>
-<label x="48.26" y="116.84" size="1.778" layer="95" xref="yes"/>
+<label x="48.26" y="116.84" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA1" class="0">
@@ -2296,7 +2376,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="30.48" y1="109.22" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
 <junction x="30.48" y="109.22"/>
-<label x="48.26" y="109.22" size="1.778" layer="95" xref="yes"/>
+<label x="48.26" y="109.22" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PRB" class="0">
