@@ -2466,6 +2466,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-30.0371,124.453,U1,GNDP,GND,,,"/>
+<approved hash="104,1,-30.08,55.88,U1,GNDP,GND,,,"/>
+<approved hash="104,1,-30.0758,63.4997,U1,VIN,AVCC,,,"/>
+<approved hash="104,1,-30.0541,78.7471,U1,GNDP,GND,,,"/>
+<approved hash="104,1,-30.0459,93.9893,U1,GNDP,GND,,,"/>
+<approved hash="104,1,-30.027,101.582,U1,VDDP,AVCC,,,"/>
+<approved hash="104,1,19.8904,124.457,U1,GNDISO,GND-ISO,,,"/>
+<approved hash="104,1,19.8834,55.8821,U1,GNDISO,GND-ISO,,,"/>
+<approved hash="104,1,19.9795,63.4947,U1,VISO,3V3-ISO,,,"/>
+<approved hash="104,1,19.8673,78.7328,U1,GNDISO,GND-ISO,,,"/>
+<approved hash="104,1,19.904,93.9931,U1,GNDISO,GND-ISO,,,"/>
+<approved hash="104,1,19.8855,101.595,U1,VDDISO,3V3-ISO,,,"/>
+<approved hash="104,1,10.48,17.78,U2,VCC,3V3-ISO,,,"/>
+<approved hash="104,1,50.5157,7.61896,U2,GND,GND-ISO,,,"/>
+<approved hash="113,1,-88.0957,86.9188,J1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
